@@ -1,4 +1,7 @@
-
+require 'pry'
+def begins_with_r(array)
+  array.all? {|item| item[0] == "r"}
+end
 
 # your code goes here
 # def begins_with_r(tools)
