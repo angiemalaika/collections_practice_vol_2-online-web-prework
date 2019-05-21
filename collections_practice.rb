@@ -3,6 +3,10 @@ def begins_with_r(array)
   array.all? {|item| item[0] == "r"}
 end
 
+
+def contain_a(array)
+  array.all? {|item| item == "r"}
+end
 # your code goes here
 # def begins_with_r(tools)
 #   flag = true 
