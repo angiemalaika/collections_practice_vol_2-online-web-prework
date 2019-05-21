@@ -69,3 +69,13 @@ end
 #   end
 #   organized_by_location
 # end
+
+
+# def begins_with_r(array)
+#   array.each do |a|
+#   if !a.start_with?("r")
+#     return false
+#   end
+# end
+# true
+# end
