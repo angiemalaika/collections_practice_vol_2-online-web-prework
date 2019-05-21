@@ -1,19 +1,29 @@
+
+
 # your code goes here
-def begins_with_r(tools)
-  flag = true 
-  tools.each do |element|
-   flag = false if element[0] !="r"
-  end 
-  flag
-end 
+# def begins_with_r(tools)
+#   flag = true 
+#   tools.each do |element|
+#   flag = false if element[0] !="r"
+#   end 
+#   flag
+# end 
 
-
-
-
-# require 'pry'
-# def begins_with_r(array)
-#   array.all? {|item| item[0] == "r"}
+# def begins_with_r(arr)
+#   arr.each do |element|
+#     if element.start_with?("r")
+#     else
+#       return false
+#     end
+#   end
+#   return true
 # end
+
+
+require 'pry'
+def begins_with_r(array)
+  array.all? {|item| item[0] == "r"}
+end
 
 # def contain_a(array)
 #   array.select {|item| item.include?("a")}
